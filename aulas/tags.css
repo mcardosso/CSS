@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+body{
+    font-family:'Gill Sans';
+    background-color: #F2A999;
+}
+
+header{
+    padding: 10px;
+    margin: auto;
+    background-color: #f28177c0;
+    text-align: center;
+    border-radius:8px;
+    
+} 
+
+main{
+    background-color: #f1b9ab;
+    padding: 10px;
+    border-radius: 3px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    box-shadow:  3px 3px 5px rgba(0, 0, 0, 0.493);
+    border-radius: 3px;
+
+}
+
+nav >a{
+    font-weight: bold;
+    text-decoration:none;
+    margin: 10px;
+    color: white;
+    
+
+}
+nav >a:hover{
+    text-decoration: underline red;
+    
+
+}
+article{
+    
+    border-radius: 3px;
+}
+
+
+
+article >aside{
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    margin: 0px;
+    color: white;
+    border-radius: 3px;
+    
+    
+}
+article >aside>p{
+    margin: 0px;
+    font-weight: bold;
+    
+    
+}
+aside>p>a{
+    color: white;
+    text-decoration: none;
+
+}
+aside > p >a:hover{
+    text-decoration: underline red;
+}
+#bola{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 2px;
+    margin: -80px 10px 10px 30px;
+    
+}
+#bola>img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+div#fb>a>img{ 
+    height:25px;
+    border-radius: 20%;
+    background-color: white;
+    
+
+}
